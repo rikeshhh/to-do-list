@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .main-container{
+    width: 500px;
+    min-height: 3vh;
+    max-height: 100vh;
+    border: 1px solid blueviolet;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.container .main-container #userInput{
+    width: 400px;
+    height: 4vh;
+    border-radius: 5px;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container .main-container button{
+background-color: transparent;
+font-family: 'Roboto', sans-serif;
+padding: 10px;
+border: none;
+color: red;
+}
+.container .main-container button:hover{
+    color: blue;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
