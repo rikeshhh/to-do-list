@@ -25,8 +25,7 @@ userBtn.addEventListener('click',()=>{
         editBtn.addEventListener('click',(e)=>{
             e.preventDefault();
             if(editBtn.innerText==="Edit"){
-                const childInput = document.getElementById('userInput');
-                childInput.focus();
+                 userInput.focus();
                 editBtn.innerText="Save";
                 
             }else{
