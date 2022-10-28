@@ -16,17 +16,22 @@ userBtn.addEventListener('click',()=>{
     deleteBtn.innerText= "Delete";
     parentDiv.append(editBtn,deleteBtn);
 
+    deleteBtn.addEventListener('click',()=>{
+        parentDiv.remove();
+    })
     editBtn.addEventListener('click',(e)=>{
         e.preventDefault();
         if(editBtn.innerText==="Edit"){
+            document.getElementById('userBtn').style.display ="none";
             const childInput = document.getElementById('userInput');
             childInput.focus();
             editBtn.innerText="Save";
+
+
         }else{
             list.innerText=`${userInput.value}`;
             userInput.value="";
             editBtn.innerText="Edit";
-
         }
     })
 })
