@@ -26,8 +26,6 @@ userBtn.addEventListener('click',()=>{
             const childInput = document.getElementById('userInput');
             childInput.focus();
             editBtn.innerText="Save";
-
-
         }else{
             list.innerText=`${userInput.value}`;
             userInput.value="";
