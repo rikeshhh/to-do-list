@@ -25,7 +25,8 @@ userBtn.addEventListener('click',()=>{
         editBtn.addEventListener('click',(e)=>{
             e.preventDefault();
             if(editBtn.innerText==="Edit"){
-                 userInput.focus();
+                 
+                userInput.focus();
                 editBtn.innerText="Save";
                 
             }else{
