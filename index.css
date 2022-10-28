@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     justify-content: center;
@@ -23,6 +24,7 @@ font-weight: 800;
     height: 4vh;
     border-radius: 5px;
     text-align: right;
+    font-weight: 900;
     font-family: 'Poppins', sans-serif;
 }
 .container .main-container button{
