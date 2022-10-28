@@ -8,4 +8,10 @@ userBtn.addEventListener('click',()=>{
     list.innerText=`${userInput.value}`;
     parentDiv.append(list);
     userInputCon.append(parentDiv);
+
+    let editBtn = document.createElement('button');
+    editBtn.innerText ="edit";
+    let deleteBtn = document.createElement('button');
+    deleteBtn.innerText= "delete";
+    parentDiv.append(editBtn,deleteBtn);
 })
